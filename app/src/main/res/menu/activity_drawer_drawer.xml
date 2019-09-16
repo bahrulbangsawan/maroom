@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:icon="@drawable/stairs_with_handrail"
+        android:id="@+id/nav_lantai"
+        android:title="Lantai" />
+
+
+    <item android:id="@+id/nav_pinjam"
+        android:icon="@drawable/medical_history"
+        android:title="Peminjaman"/>
+
+    
+    <item
+        android:icon="@drawable/logout"
+        android:id="@+id/nav_log_out"
+        android:title="Log Out" />
+
+
+</menu>

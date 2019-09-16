@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "516926389786",
+    "firebase_url": "https://maroom-dcae8.firebaseio.com",
+    "project_id": "maroom-dcae8",
+    "storage_bucket": "maroom-dcae8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516926389786:android:4fc4cfd816cf1ea1",
+        "android_client_info": {
+          "package_name": "me.crackn.maroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516926389786-s3nhmj7j1mo1gf0391ct742c6g41t2n6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.crackn.maroom",
+            "certificate_hash": "dd06c90fdcbffe3655a0bc608f9c235093117ab0"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbKTqY9NA7gYJEBRsoBnq3bU_dqWXFsDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516926389786-37q72rkg7stl0le4mj3ftb7v0sf5lde7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

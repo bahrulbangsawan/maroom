@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/pinjam_foto"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_menu_camera"/>
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:id="@+id/pinjam_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <TextView
+            android:id="@+id/pinjam_lantai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lantai"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <RatingBar
+            android:paddingTop="6dp"
+            android:numStars="5"
+            android:stepSize="1"
+            android:id="@+id/pinjam_rating"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/pinjam_acc"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_green_24dp"/>
+
+</LinearLayout>
